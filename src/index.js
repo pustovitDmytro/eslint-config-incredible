@@ -265,7 +265,8 @@ module.exports = {
             },
             'rules' : {
                 'prefer-arrow-callback'              : 0,
-                'security/detect-non-literal-regexp' : 0
+                'security/detect-non-literal-regexp' : 0,
+                'no-magic-numbers'                   : 0
             }
         }
     ]
