@@ -51,7 +51,7 @@ If you received a warning about missing peerDependencies, install peer modules:
   Extend config in [.eslintrc](https://eslint.org/docs/user-guide/configuring/configuration-files#using-configuration-files)
 
 {
-    "extends": "webbylab"
+    "extends": "incredible"
 }
 
 
@@ -104,7 +104,7 @@ The message summary should be a one-sentence description of the change. The issu
 [lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/eslint-config-incredible.svg?logo=lgtm&logoWidth=18
 [lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/eslint-config-incredible/alerts/
 
-[codacy-badge]: https://app.codacy.com/project/badge/Grade/8667aa23afaa4725854f098c4b5e8890
+[codacy-badge]: https://app.codacy.com/project/badge/Grade/d1b20b97b5af4d79b2c03597e14946b3
 [codacy-url]: https://www.codacy.com/gh/pustovitDmytro/eslint-config-incredible/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/eslint-config-incredible&amp;utm_campaign=Badge_Grade
 
 [sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_eslint-config-incredible&metric=alert_status

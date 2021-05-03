@@ -2,7 +2,12 @@
   "name": "eslint-config-incredible",
   "version": "0.0.1",
   "description": "Pretty eslint config",
-  "keywords": ["eslint", "eslintconfig", "config", "incredible"],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "incredible"
+  ],
   "main": "./lib",
   "scripts": {
     "prepare": "babel src --out-dir ./lib && husky install",
