@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.2.0...v1.3.0) (2021-05-03)
+
+
+### New
+
+* allow function expression for arrow functions ([9a087ae](https://github.com/pustovitDmytro/eslint-config-incredible/commit/9a087aec61f1ee808bdb587bfa2a1870747c8a10))
+
 # [1.2.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.1.0...v1.2.0) (2021-05-03)
 
 
