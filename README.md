@@ -1,4 +1,4 @@
-# eslint-config-awesome
+# eslint-config-incredible
 Pretty [eslint](https://eslint.org) config.
 
 [![Version][badge-vers]][npm]
@@ -37,7 +37,7 @@ To use library you need to have [node](https://nodejs.org) and [npm](https://www
 To install the library, run the following command:
 
 ```bash
-  npm i --save-dev eslint-config-awesome
+  npm i --save-dev eslint-config-incredible
 ```
 
 If you received a warning about missing peerDependencies, install peer modules:
@@ -77,39 +77,39 @@ The Tag is one of the following:
 The message summary should be a one-sentence description of the change. The issue number should be mentioned at the end.
 
 
-[npm]: https://www.npmjs.com/package/eslint-config-awesome
-[github]: https://github.com/pustovitDmytro/eslint-config-awesome
-[coveralls]: https://coveralls.io/github/pustovitDmytro/eslint-config-awesome?branch=master
-[badge-deps]: https://img.shields.io/david/pustovitDmytro/eslint-config-awesome.svg
-[badge-vuln]: https://img.shields.io/snyk/vulnerabilities/npm/eslint-config-awesome.svg?style=popout
-[badge-vers]: https://img.shields.io/npm/v/eslint-config-awesome.svg
-[badge-lic]: https://img.shields.io/github/license/pustovitDmytro/eslint-config-awesome.svg
-[badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/eslint-config-awesome/badge.svg?branch=master
-[url-coverage]: https://coveralls.io/github/pustovitDmytro/eslint-config-awesome?branch=master
+[npm]: https://www.npmjs.com/package/eslint-config-incredible
+[github]: https://github.com/pustovitDmytro/eslint-config-incredible
+[coveralls]: https://coveralls.io/github/pustovitDmytro/eslint-config-incredible?branch=master
+[badge-deps]: https://img.shields.io/david/pustovitDmytro/eslint-config-incredible.svg
+[badge-vuln]: https://img.shields.io/snyk/vulnerabilities/npm/eslint-config-incredible.svg?style=popout
+[badge-vers]: https://img.shields.io/npm/v/eslint-config-incredible.svg
+[badge-lic]: https://img.shields.io/github/license/pustovitDmytro/eslint-config-incredible.svg
+[badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/eslint-config-incredible/badge.svg?branch=master
+[url-coverage]: https://coveralls.io/github/pustovitDmytro/eslint-config-incredible?branch=master
 
-[tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/eslint-config-awesome
-[tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/eslint-config-awesome
+[tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/eslint-config-incredible
+[tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/eslint-config-incredible
 
-[codefactor-badge]: https://www.codefactor.io/repository/github/pustovitdmytro/eslint-config-awesome/badge
-[codefactor-url]: https://www.codefactor.io/repository/github/pustovitdmytro/eslint-config-awesome
+[codefactor-badge]: https://www.codefactor.io/repository/github/pustovitdmytro/eslint-config-incredible/badge
+[codefactor-url]: https://www.codefactor.io/repository/github/pustovitdmytro/eslint-config-incredible
 
-[commit-activity-badge]: https://img.shields.io/github/commit-activity/m/pustovitDmytro/eslint-config-awesome
+[commit-activity-badge]: https://img.shields.io/github/commit-activity/m/pustovitDmytro/eslint-config-incredible
 
-[scrutinizer-badge]: https://scrutinizer-ci.com/g/pustovitDmytro/eslint-config-awesome/badges/quality-score.png?b=master
-[scrutinizer-url]: https://scrutinizer-ci.com/g/pustovitDmytro/eslint-config-awesome/?branch=master
+[scrutinizer-badge]: https://scrutinizer-ci.com/g/pustovitDmytro/eslint-config-incredible/badges/quality-score.png?b=master
+[scrutinizer-url]: https://scrutinizer-ci.com/g/pustovitDmytro/eslint-config-incredible/?branch=master
 
-[lgtm-lg-badge]: https://img.shields.io/lgtm/grade/javascript/g/pustovitDmytro/eslint-config-awesome.svg?logo=lgtm&logoWidth=18
-[lgtm-lg-url]: https://lgtm.com/projects/g/pustovitDmytro/eslint-config-awesome/context:javascript
+[lgtm-lg-badge]: https://img.shields.io/lgtm/grade/javascript/g/pustovitDmytro/eslint-config-incredible.svg?logo=lgtm&logoWidth=18
+[lgtm-lg-url]: https://lgtm.com/projects/g/pustovitDmytro/eslint-config-incredible/context:javascript
 
-[lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/eslint-config-awesome.svg?logo=lgtm&logoWidth=18
-[lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/eslint-config-awesome/alerts/
+[lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/eslint-config-incredible.svg?logo=lgtm&logoWidth=18
+[lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/eslint-config-incredible/alerts/
 
 [codacy-badge]: https://app.codacy.com/project/badge/Grade/8667aa23afaa4725854f098c4b5e8890
-[codacy-url]: https://www.codacy.com/gh/pustovitDmytro/eslint-config-awesome/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/eslint-config-awesome&amp;utm_campaign=Badge_Grade
+[codacy-url]: https://www.codacy.com/gh/pustovitDmytro/eslint-config-incredible/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/eslint-config-incredible&amp;utm_campaign=Badge_Grade
 
-[sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_eslint-config-awesome&metric=alert_status
-[sonarcloud-url]: https://sonarcloud.io/dashboard?id=pustovitDmytro_eslint-config-awesome
+[sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_eslint-config-incredible&metric=alert_status
+[sonarcloud-url]: https://sonarcloud.io/dashboard?id=pustovitDmytro_eslint-config-incredible
 
-[npm-downloads-badge]: https://img.shields.io/npm/dw/eslint-config-awesome
-[npm-size-badge]: https://img.shields.io/bundlephobia/min/eslint-config-awesome
-[npm-size-url]: https://bundlephobia.com/result?p=eslint-config-awesome
+[npm-downloads-badge]: https://img.shields.io/npm/dw/eslint-config-incredible
+[npm-size-badge]: https://img.shields.io/bundlephobia/min/eslint-config-incredible
+[npm-size-url]: https://bundlephobia.com/result?p=eslint-config-incredible
