@@ -185,7 +185,7 @@ module.exports = {
         'comma-style'               : [ 'error', 'last' ],
         'computed-property-spacing' : [ 'error', 'never' ],
         'eol-last'                  : 'error',
-        'func-style'                : [ 'error', 'declaration' ],
+        'func-style'                : [ 'error', 'declaration', { 'allowArrowFunctions': true } ],
         'indent'                    : [ 'error', 4, { 'SwitchCase': 1 } ],
         'jsx-quotes'                : [ 'error', 'prefer-single' ],
         'key-spacing'               : [ 'error', {
