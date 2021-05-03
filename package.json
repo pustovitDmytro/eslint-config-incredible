@@ -1,7 +1,8 @@
 {
-  "name": "npm-boilerplate",
+  "name": "eslint-config-awesome",
   "version": "0.0.1",
-  "description": "boilerplate for creating npm packages",
+  "description": "Pretty eslint config",
+  "keywords": ["eslint", "eslintconfig", "confg", "awesome"],
   "main": "./lib",
   "scripts": {
     "prepare": "babel src --out-dir ./lib && husky install",
@@ -12,21 +13,21 @@
     "test:package": "./bin/pack.sh && ENTRY=./tmp/package/lib npm run test:mocha",
     "test:coverage": "BUILD=0 MODE=test nyc mocha --config .mocharc.json tests/**/*test.js",
     "test:debt": "jscpd src --config .jscpd.json",
-    "test:lock": "lockfile-lint --path package-lock.json --validate-https --allowed-hosts npm",
+    "test:lock": "lockfile-lint --path package-lock.json --allowed-hosts npm --allowed-schemes 'https:' 'file:'",
     "coverage-check": "MODE=test nyc check-coverage",
     "test": "npm run test:lint && npm run test:security && BUILD=1 npm run test:mocha",
     "semantic-release": "npx semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate.git"
+    "url": "https://github.com/pustovitDmytro/eslint-config-awesome.git"
   },
   "author": "Dmytro Pustovit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate/issues"
+    "url": "https://github.com/pustovitDmytro/eslint-config-awesome/issues"
   },
-  "homepage": "https://github.com/pustovitDmytro/npm-boilerplate#readme",
+  "homepage": "https://github.com/pustovitDmytro/eslint-config-awesome#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
@@ -51,7 +52,6 @@
     "@semantic-release/github": "^7.2.1",
     "@semantic-release/npm": "^7.0.0",
     "@semantic-release/release-notes-generator": "^9.0.0",
-    "babel-eslint": "^10.0.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "chai": "^4.2.0",
     "chance": "^1.0.18",
@@ -59,13 +59,11 @@
     "coveralls": "^3.0.3",
     "danger": "^10.6.4",
     "eslint": "^7.0.0",
-    "eslint-config-webbylab": "^4.0.0",
-    "eslint-plugin-fetch": "0.0.1",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-more": "^0.3.2",
-    "eslint-plugin-no-require-lodash": "^1.1.0",
-    "eslint-plugin-prefer-spread": "^1.0.3",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint-config-awesome": "file:./",
+    "eslint-plugin-censor": "^1.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-more": "^1.0.3",
+    "eslint-plugin-security": "^1.4.0",
     "fs-extra": "^8.1.0",
     "husky": "^6.0.0",
     "jscpd": "^3.3.25",
@@ -77,5 +75,15 @@
     "semantic-release": "^17.4.2",
     "semantic-release-telegram": "^1.0.1",
     "uuid": "^8.0.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "eslint-plugin-censor": ">= 1",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-more": ">= 1",
+    "eslint-plugin-security": ">= 1"
   }
 }
