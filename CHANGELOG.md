@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.1.0...v1.2.0) (2021-05-03)
+
+
+### Chore
+
+* adds pr context ([ce163d9](https://github.com/pustovitDmytro/eslint-config-incredible/commit/ce163d98af7e779af2242418b9d4fe18deeffb36))
+* fixes ci ([0576a01](https://github.com/pustovitDmytro/eslint-config-incredible/commit/0576a013f537d21591b13214c3cf2c1cf33bfa79))
+* use incredible eslint config ([b03d74a](https://github.com/pustovitDmytro/eslint-config-incredible/commit/b03d74a4e8e9ee1dcecba72d2137d70dafbf8b73))
+
+### New
+
+* ignore no-magic-numbers for tests ([afffe08](https://github.com/pustovitDmytro/eslint-config-incredible/commit/afffe08f9fef18860e227bec8a4b02989451e3d7))
+
 # [1.1.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.0.0...v1.1.0) (2021-05-03)
 
 
