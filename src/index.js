@@ -264,7 +264,8 @@ module.exports = {
                 'mocha' : true
             },
             'rules' : {
-                'prefer-arrow-callback' : 0
+                'prefer-arrow-callback'              : 0,
+                'security/detect-non-literal-regexp' : 0
             }
         }
     ]
