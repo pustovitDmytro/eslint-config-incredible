@@ -10,7 +10,7 @@
   ],
   "main": "./lib",
   "scripts": {
-    "prepare": "babel src --out-dir ./lib && husky install",
+    "prepare": "babel src --out-dir ./lib --copy-files && husky install",
     "coveralls": "cat ./reports/coverage/lcov.info | coveralls",
     "test:security": "npm audit && npm run test:lock",
     "test:lint": "eslint src bin tests",
@@ -21,6 +21,7 @@
     "test:lock": "lockfile-lint --path package-lock.json --allowed-hosts npm --allowed-schemes 'https:'",
     "coverage-check": "MODE=test nyc check-coverage",
     "test": "npm run test:lint && npm run test:security && BUILD=1 npm run test:mocha",
+    "sort-deps": "npm remove --save example; npm remove --save-dev example",
     "semantic-release": "npx semantic-release"
   },
   "repository": {
