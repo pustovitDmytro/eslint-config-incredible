@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.0.0...v1.1.0) (2021-05-03)
+
+
+### Chore
+
+* Update dependency fs-extra to v9 ([6fabdd5](https://github.com/pustovitDmytro/eslint-config-incredible/commit/6fabdd570034354a91dcc90783837dcc6d6a49b7))
+* use npm for recurcive dependency ([869da98](https://github.com/pustovitDmytro/eslint-config-incredible/commit/869da986158b8088a19a44ea1432309f94ef93ad))
+
+### New
+
+* disable security/detect-non-literal-regexp for tests ([a42754f](https://github.com/pustovitDmytro/eslint-config-incredible/commit/a42754f18680770f3f8554b851d39cfd9526523f))
+
 # 1.0.0 (2021-05-03)
 
 
