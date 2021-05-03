@@ -18,7 +18,7 @@
     "test:package": "./bin/pack.sh && ENTRY=./tmp/package/lib npm run test:mocha",
     "test:coverage": "BUILD=0 MODE=test nyc mocha --config .mocharc.json tests/**/*test.js",
     "test:debt": "jscpd src --config .jscpd.json",
-    "test:lock": "lockfile-lint --path package-lock.json --allowed-hosts npm --allowed-schemes 'https:' 'file:'",
+    "test:lock": "lockfile-lint --path package-lock.json --allowed-hosts npm --allowed-schemes 'https:'",
     "coverage-check": "MODE=test nyc check-coverage",
     "test": "npm run test:lint && npm run test:security && BUILD=1 npm run test:mocha",
     "semantic-release": "npx semantic-release"
@@ -64,7 +64,7 @@
     "coveralls": "^3.0.3",
     "danger": "^10.6.4",
     "eslint": "^7.0.0",
-    "eslint-config-incredible": "file:./",
+    "eslint-config-incredible": "^1.0.0",
     "eslint-plugin-censor": "^1.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-more": "^1.0.3",
