@@ -1,3 +1,14 @@
+# [1.7.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.6.1...v1.7.0) (2021-05-04)
+
+
+### Chore
+
+* Update dependency @rollup/plugin-node-resolve to v13 ([8fa0c02](https://github.com/pustovitDmytro/eslint-config-incredible/commit/8fa0c02cb979f7365a7027c3fd0238d2e9a6578d))
+
+### New
+
+* disable import rules for tests folder ([6ef0245](https://github.com/pustovitDmytro/eslint-config-incredible/commit/6ef0245cea879ec2a24cd1cc6ec0d16c26dc5cf4))
+
 ## [1.6.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.6.0...v1.6.1) (2021-05-04)
 
 
