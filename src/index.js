@@ -254,7 +254,9 @@ module.exports = {
         'security/detect-non-literal-fs-filename' : 0,
         'import/no-commonjs'                      : 0,
         'more/no-hardcoded-configuration-data'    : 0,
-        'func-names'                              : 0
+        'func-names'                              : 0,
+        'more/prefer-includes'                    : 0
+
     },
 
     'overrides' : [
