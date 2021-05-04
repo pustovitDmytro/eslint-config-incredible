@@ -1,3 +1,17 @@
+## [1.6.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.6.0...v1.6.1) (2021-05-04)
+
+
+### Upgrade
+
+* Pin dependency babel-eslint to 10.1.0 ([e29009e](https://github.com/pustovitDmytro/eslint-config-incredible/commit/e29009eb49d1ca958464ae254110a5b79f03518b))
+
+# [1.6.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.5.0...v1.6.0) (2021-05-04)
+
+
+### New
+
+* adds ignoreDefaultValues to magic numbers ([f806984](https://github.com/pustovitDmytro/eslint-config-incredible/commit/f80698486afd4c01dda22a8c27311dcfde973993))
+
 # [1.5.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.4.0...v1.5.0) (2021-05-04)
 
 
