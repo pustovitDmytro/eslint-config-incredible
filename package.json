@@ -83,7 +83,7 @@
     "uuid": "^8.0.0"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1"
+    "babel-eslint": "10.1.0"
   },
   "peerDependencies": {
     "eslint": ">= 7",
