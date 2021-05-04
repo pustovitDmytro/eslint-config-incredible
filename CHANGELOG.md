@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.3.0...v1.4.0) (2021-05-04)
+
+
+### Chore
+
+* adds trusted bots to danger ([892f4a1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/892f4a12a0084464da137d25b1a027e4afb808bd))
+* Update dependency fs-extra to v10 ([a0adecc](https://github.com/pustovitDmytro/eslint-config-incredible/commit/a0adecc6b0b58e877bb64aff29e9a42bdc8a9d71))
+* Update issue templates ([8fdb1af](https://github.com/pustovitDmytro/eslint-config-incredible/commit/8fdb1af8db2dbb2cd8912bef867d62b95781fc56))
+* Update pr template ([1d4eb34](https://github.com/pustovitDmytro/eslint-config-incredible/commit/1d4eb34da6085757d1707db0c440c6e245c3e2e3))
+
+### New
+
+* disable more/prefer-includes due to bug in last ([3e8e6d0](https://github.com/pustovitDmytro/eslint-config-incredible/commit/3e8e6d0800e408c036f43310e16847c731adeeea))
+
 # [1.3.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.2.0...v1.3.0) (2021-05-03)
 
 
