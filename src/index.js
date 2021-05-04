@@ -255,7 +255,8 @@ module.exports = {
         'import/no-commonjs'                      : 0,
         'more/no-hardcoded-configuration-data'    : 0,
         'func-names'                              : 0,
-        'more/prefer-includes'                    : 0
+        'more/prefer-includes'                    : 0,
+        'security/detect-object-injection'        : 0
 
     },
 
