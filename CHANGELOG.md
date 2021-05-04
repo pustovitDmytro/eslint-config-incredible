@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.5.0...v1.6.0) (2021-05-04)
+
+
+### New
+
+* adds ignoreDefaultValues to magic numbers ([f806984](https://github.com/pustovitDmytro/eslint-config-incredible/commit/f80698486afd4c01dda22a8c27311dcfde973993))
+
 # [1.5.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.4.0...v1.5.0) (2021-05-04)
 
 
