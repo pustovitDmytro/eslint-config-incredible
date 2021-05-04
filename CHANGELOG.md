@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.4.0...v1.5.0) (2021-05-04)
+
+
+### New
+
+* disable security/detect-object-injection ([a800d2b](https://github.com/pustovitDmytro/eslint-config-incredible/commit/a800d2bc4ef271760f0e7c3f9ca034111c14a5ec))
+
 # [1.4.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.3.0...v1.4.0) (2021-05-04)
 
 
