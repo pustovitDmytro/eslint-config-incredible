@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.7.0...v1.7.1) (2021-05-05)
+
+
+### Docs
+
+* adds highlight for config ([c476142](https://github.com/pustovitDmytro/eslint-config-incredible/commit/c476142b03b53dc1544de00b330c9efb938e310b))
+
 # [1.7.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.6.1...v1.7.0) (2021-05-04)
 
 
