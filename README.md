@@ -50,10 +50,11 @@ If you received a warning about missing peerDependencies, install peer modules:
 
   Extend config in [.eslintrc](https://eslint.org/docs/user-guide/configuring/configuration-files#using-configuration-files)
 
+```json
 {
     "extends": "incredible"
 }
-
+```
 
 ## Contribute
 
