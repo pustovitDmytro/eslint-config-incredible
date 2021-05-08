@@ -1,6 +1,4 @@
-/* eslint-disable no-magic-numbers */
-
-module.exports = {
+export default {
     'files'         : [ 'bin/**', 'cli/**' ],
     'excludedFiles' : [ '*.test.js', 'tests/**' ],
     'rules'         : {

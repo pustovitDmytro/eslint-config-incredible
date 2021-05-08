@@ -1,7 +1,9 @@
-import { assert } from 'chai';
-import entry from '../entry';
-import { ESLint } from 'eslint';
+/* eslint-disable import/no-commonjs */
 import path from 'path';
+import { assert } from 'chai';
+import { ESLint } from 'eslint';
+import entry from '../entry';
+
 const examplesDir = path.join(__dirname, '../examples');
 const eslint = new ESLint({
     cwd         : examplesDir,

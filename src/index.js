@@ -1,4 +1,4 @@
-const babel = require('./parsers/babel');
+import babel from './parsers/babel';
 
 module.exports = {
     parser        : babel.parser,

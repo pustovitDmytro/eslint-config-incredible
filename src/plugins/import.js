@@ -1,5 +1,4 @@
-/* eslint-disable no-magic-numbers */
-module.exports = {
+export default {
     'plugins' : [ 'import' ],
     'extends' : [
         'plugin:import/recommended'

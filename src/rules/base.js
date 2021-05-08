@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-module.exports = {
+export default {
     'no-useless-escape'              : 'error',
     'no-duplicate-imports'           : 'error',
     'newline-before-return'          : 'error',

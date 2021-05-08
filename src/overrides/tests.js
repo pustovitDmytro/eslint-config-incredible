@@ -1,6 +1,8 @@
-module.exports = {
+import testEnv from '../env/tests';
+
+export default {
     'files' : [ '*.test.js', 'tests/**' ],
-    'env'   : require('../env/tests'),
+    'env'   : testEnv,
     'rules' : {
         'prefer-arrow-callback'              : 0,
         'no-magic-numbers'                   : 0,
