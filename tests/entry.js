@@ -8,6 +8,12 @@ const entry = process.env.ENTRY && path.resolve(process.env.ENTRY)
 
 export default require(entry);
 
-export function _load(relPath) {
+function _load(relPath) {
     return require(path.join(entry, relPath));
 }
+
+_load.resolve = function (relPath) {
+    return require.resolve(path.join(entry, relPath));
+};
+
+export { _load };
