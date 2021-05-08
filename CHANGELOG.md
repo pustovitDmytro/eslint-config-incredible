@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.7.1...v1.8.0) (2021-05-08)
+
+
+### Chore
+
+* adds snippet tests (fixes #11) ([5461e53](https://github.com/pustovitDmytro/eslint-config-incredible/commit/5461e538a7a2535bc0f12c4ee9a5bc8513f9f292)), closes [#11](https://github.com/pustovitDmytro/eslint-config-incredible/issues/11)
+* split configs into files #9 ([4ad74d1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/4ad74d190632d65cf629ffd055f73c617c56ad22)), closes [#9](https://github.com/pustovitDmytro/eslint-config-incredible/issues/9)
+
+### New
+
+* add rules to import plugin #11, fixes #8 ([11007d5](https://github.com/pustovitDmytro/eslint-config-incredible/commit/11007d5b84d31309c2fbbbe285eeb4e6b9d1129d)), closes [#8](https://github.com/pustovitDmytro/eslint-config-incredible/issues/8)
+* drop eslint-plugin-more fixes #7 ([6c7da9b](https://github.com/pustovitDmytro/eslint-config-incredible/commit/6c7da9b900dfd68808f0145913bcfcb0da4c44d6)), closes [#7](https://github.com/pustovitDmytro/eslint-config-incredible/issues/7)
+
 ## [1.7.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.7.0...v1.7.1) (2021-05-05)
 
 
