@@ -15,6 +15,8 @@ module.exports = {
         ...require('./rules/base')
     },
     overrides : [
-        require('./overrides/tests')
+        require('./overrides/bin'),
+        require('./overrides/tests'),
+        require('./overrides/entry')
     ]
 };
