@@ -1,3 +1,14 @@
+# [1.9.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.8.0...v1.9.0) (2021-05-08)
+
+
+### Chore
+
+* Update dependency @rollup/plugin-commonjs to v19 ([f271939](https://github.com/pustovitDmytro/eslint-config-incredible/commit/f271939f226d28372637bf6d91779cd821d5647f))
+
+### New
+
+* adds bin and entry overrides ([1516094](https://github.com/pustovitDmytro/eslint-config-incredible/commit/1516094a1fdc0c91d33030f8546d7e4f4e53cd25))
+
 # [1.8.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.7.1...v1.8.0) (2021-05-08)
 
 
