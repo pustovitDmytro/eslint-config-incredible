@@ -1,12 +1,13 @@
 import { assert } from 'chai';
-import entry, { _load } from '../entry';
+import entry from '../entry';
+import { load } from '../Test';
 
 const SETS = [ 'base' ];
 
 SETS.forEach(name => {
     suite(`Rule set: ${name}`);
 
-    const set = _load(`rules/${name}.js`);
+    const set = load(`rules/${name}.js`);
 
     test('Exports rules as dictionary', function () {
         assert.exists(set);
