@@ -1,0 +1,4 @@
+{
+    "name": "base",
+    "invalid": [ "no-magic-numbers", "no-unused-vars" ]
+}

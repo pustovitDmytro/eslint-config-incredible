@@ -1,10 +1,10 @@
 import { assert } from 'chai';
 import entry, { _load } from '../entry';
 
-const PLUGINS = [ 'import' ];
+const PLUGINS = [ 'censor', 'import', 'security' ];
 
 PLUGINS.forEach(name => {
-    suite.only(`Plugins: ${name}`);
+    suite(`Plugins: ${name}`);
 
     test('Present in default incredible configuration', function () {
         const extendedPath = entry.extends.find(p => p.includes(name));

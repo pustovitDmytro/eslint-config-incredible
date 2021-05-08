@@ -9,8 +9,7 @@ module.exports = {
     extends : [
         './plugins/import',
         './plugins/censor',
-        './plugins/security',
-        './plugins/more'
+        './plugins/security'
     ].map(require.resolve),
     rules : {
         ...require('./rules/base')
