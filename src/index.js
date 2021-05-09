@@ -6,9 +6,9 @@ import overrideTests from './overrides/tests';
 import overrideEntry from './overrides/entry';
 
 const pluginConfigs = [
-    './plugins/import',
-    './plugins/censor',
-    './plugins/security'
+    './plugins/import.json',
+    './plugins/censor.json',
+    './plugins/security.json'
 ].map(require.resolve);
 
 module.exports = {
