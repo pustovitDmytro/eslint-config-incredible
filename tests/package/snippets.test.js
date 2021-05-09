@@ -5,17 +5,22 @@ import { ESLint } from 'eslint';
 import entry from '../entry';
 
 const examplesDir = path.join(__dirname, '../examples');
-const eslint = new ESLint({
-    cwd         : examplesDir,
-    baseConfig  : entry,
-    useEslintrc : false
-});
 
 const SNIPPETS = [
     require('../examples/base')
 ];
 
+let eslint;
+
 suite('Snippets');
+
+before(function () {
+    eslint = new ESLint({
+        cwd         : examplesDir,
+        baseConfig  : entry,
+        useEslintrc : false
+    });
+});
 
 SNIPPETS.forEach(({ name, invalid }) => {
     test(`Positive: [${name}] valid snippet`, async function () {

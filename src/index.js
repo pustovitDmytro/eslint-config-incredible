@@ -1,22 +1,25 @@
 import babel from './parsers/babel';
+import node from './env/node';
+import baseRules from './rules/base';
+import overrideBin from './overrides/bin';
+import overrideTests from './overrides/tests';
+import overrideEntry from './overrides/entry';
+
+const pluginConfigs = [
+    './plugins/import',
+    './plugins/censor',
+    './plugins/security'
+].map(require.resolve);
 
 module.exports = {
     parser        : babel.parser,
     parserOptions : {
         ...babel.parserOptions
     },
-    env     : require('./env/node'),
-    extends : [
-        './plugins/import',
-        './plugins/censor',
-        './plugins/security'
-    ].map(require.resolve),
-    rules : {
-        ...require('./rules/base')
+    env     : node,
+    extends : pluginConfigs,
+    rules   : {
+        ...baseRules
     },
-    overrides : [
-        require('./overrides/bin'),
-        require('./overrides/tests'),
-        require('./overrides/entry')
-    ]
+    overrides : [ overrideBin, overrideTests, overrideEntry ]
 };

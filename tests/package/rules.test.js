@@ -7,7 +7,7 @@ const SETS = [ 'base' ];
 SETS.forEach(name => {
     suite(`Rule set: ${name}`);
 
-    const set = load(`rules/${name}.js`);
+    const set = load(`rules/${name}.js`).default;
 
     test('Exports rules as dictionary', function () {
         assert.exists(set);

@@ -11,18 +11,18 @@ PLUGINS.forEach(name => {
         const extendedPath = entry.extends.find(p => p.includes(name));
 
         assert.exists(extendedPath);
-        assert.equal(extendedPath, resolve(`plugins/${name}.js`));
+        assert.equal(extendedPath, resolve(`plugins/${name}.json`));
     });
 
     test('Load actual plugin', function () {
-        const plugin = load(`plugins/${name}.js`);
+        const plugin = load(`plugins/${name}.json`);
 
         assert.exists(plugin);
         assert.deepEqual(plugin.plugins, [ name ]);
     });
 
     test('Extends recommended configuration', function () {
-        const plugin = load(`plugins/${name}.js`);
+        const plugin = load(`plugins/${name}.json`);
 
         assert.exists(plugin);
         assert.includeMembers(plugin.extends, [ `plugin:${name}/recommended` ]);
