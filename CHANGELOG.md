@@ -1,3 +1,23 @@
+## [1.9.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.9.0...v1.9.1) (2021-05-09)
+
+
+### Chore
+
+* (tests) moves load to factory ([4acb941](https://github.com/pustovitDmytro/eslint-config-incredible/commit/4acb94181777f22e8fda16ea43b6a1cad3986629))
+* adopt tests to new load helper ([d757748](https://github.com/pustovitDmytro/eslint-config-incredible/commit/d757748101f10121369b5a37f2b0336762a85f55))
+* fixes spellcheck in bugreport ([7d754b6](https://github.com/pustovitDmytro/eslint-config-incredible/commit/7d754b605ed7fed3ea1a9c7d0d951a09806a1c37))
+* set myself as default assignee in pr ([0dcd0ce](https://github.com/pustovitDmytro/eslint-config-incredible/commit/0dcd0ce95b50a1e8a2fef91307f7fd8964314f68))
+* tests/entry.js module resolving ([c840f8b](https://github.com/pustovitDmytro/eslint-config-incredible/commit/c840f8b479234b7944b2d2708344ae24df231464))
+* Update dependency @rollup/plugin-commonjs to v19 ([bf29948](https://github.com/pustovitDmytro/eslint-config-incredible/commit/bf2994851b033e64744e381f5f566ca9eed0aef5))
+* Update dependency @rollup/plugin-node-resolve to v13 ([265fd82](https://github.com/pustovitDmytro/eslint-config-incredible/commit/265fd82a61b0f2ee81bcb445f93e34f05bb4540b))
+* update eslint ([4aac03c](https://github.com/pustovitDmytro/eslint-config-incredible/commit/4aac03c8db5f28d1d41838fc70e614df93e034d6))
+* update lock file ([4ffb878](https://github.com/pustovitDmytro/eslint-config-incredible/commit/4ffb878e544a8cbe68fa7b3c5908b8ccdf9e394f))
+
+### Fix
+
+* fixes es6 resolving ([2143a4c](https://github.com/pustovitDmytro/eslint-config-incredible/commit/2143a4c4846476ceb5a9ea12712429b10b8fdcb1))
+* resolve json path for consistant resolve ([28925dc](https://github.com/pustovitDmytro/eslint-config-incredible/commit/28925dc65a1e66f1b33eef08e58276130a5dd5eb))
+
 # [1.9.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.8.0...v1.9.0) (2021-05-08)
 
 
