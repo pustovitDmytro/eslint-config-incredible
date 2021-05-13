@@ -1,18 +1,20 @@
+/* eslint-disable security/detect-non-literal-require */
 /* eslint-disable import/no-commonjs */
 import path from 'path';
 import { assert } from 'chai';
 import { ESLint } from 'eslint';
 import entry from '../entry';
+import { testsRootFolder } from '../Test';
 
-const examplesDir = path.join(__dirname, '../examples');
+const examplesDir = path.join(testsRootFolder, 'examples');
 
 const SNIPPETS = [
-    require('../examples/base')
+    require(path.join(examplesDir, 'base'))
 ];
 
 let eslint;
 
-suite('Snippets');
+suite('Snippets #no-pack');
 
 before(function () {
     eslint = new ESLint({

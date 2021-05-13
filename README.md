@@ -117,5 +117,5 @@ The message summary should be a one-sentence description of the change. The issu
 [npm-size-badge]: https://img.shields.io/bundlephobia/min/eslint-config-incredible
 [npm-size-url]: https://bundlephobia.com/result?p=eslint-config-incredible
 
-[appveyor-badge]: https://ci.appveyor.com/api/projects/status/lik73h3vxd7687pr/branch/master?svg=true
+[appveyor-badge]: https://ci.appveyor.com/api/projects/status/lqiyjlwktdapem5q/branch/master?svg=true
 [appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/eslint-config-incredible/branch/master
