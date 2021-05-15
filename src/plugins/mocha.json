@@ -1,0 +1,13 @@
+{
+    "plugins":[ "mocha" ],
+    "overrides": [
+        {
+            "files": ["*.test.js"],
+            "extends": ["plugin:mocha/recommended"],
+            "rules": {
+                "mocha/no-global-tests": 0,
+                "mocha/no-top-level-hooks": 0
+            }
+        }
+    ]
+ }

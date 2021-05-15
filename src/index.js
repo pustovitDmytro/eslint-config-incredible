@@ -1,15 +1,23 @@
 import babel from './parsers/babel';
 import node from './env/node';
 import baseRules from './rules/base';
-import overrideBin from './overrides/bin';
-import overrideTests from './overrides/tests';
-import overrideEntry from './overrides/entry';
+import overrides from './overrides';
 
-const pluginConfigs = [
-    './plugins/import.json',
+const pluginConfigs =  [
     './plugins/censor.json',
-    './plugins/security.json'
-].map(require.resolve);
+    './plugins/import.json',
+    './plugins/markdown.json',
+    './plugins/mocha.json',
+    './plugins/no-secrets.json',
+    './plugins/node.json',
+    './plugins/promise.json',
+    './plugins/regexp.json',
+    './plugins/scanjs-rules.json',
+    './plugins/security.json',
+    './plugins/sonarjs.json',
+    './plugins/unicorn.json'
+].map(p => require.resolve(p));
+
 
 module.exports = {
     parser        : babel.parser,
@@ -21,5 +29,5 @@ module.exports = {
     rules   : {
         ...baseRules
     },
-    overrides : [ overrideBin, overrideTests, overrideEntry ]
+    overrides
 };

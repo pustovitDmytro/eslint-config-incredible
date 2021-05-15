@@ -4,7 +4,7 @@ import { load } from '../Test';
 
 const SETS = [ 'base' ];
 
-SETS.forEach(name => {
+for (const name of SETS) {
     suite(`Rule set: ${name}`);
 
     const set = load(`rules/${name}.js`).default;
@@ -18,4 +18,4 @@ SETS.forEach(name => {
     test('Present in default incredible configuration', function () {
         assert.deepOwnInclude(entry.rules, set);
     });
-});
+}

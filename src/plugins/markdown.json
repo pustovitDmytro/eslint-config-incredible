@@ -1,0 +1,4 @@
+{
+    "plugins":["markdown"],
+    "extends": ["plugin:markdown/recommended"]
+}

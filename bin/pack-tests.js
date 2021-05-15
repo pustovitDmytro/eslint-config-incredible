@@ -1,4 +1,3 @@
-#!./node_modules/.bin/babel-node
 
 import path from 'path';
 import { rollup } from 'rollup';
@@ -26,6 +25,16 @@ const TEST_MODULES = [
 
 const resolveIgnoreRegexp = `^(?!${TEST_MODULES.join('|')}).*$`;
 
+function devDependencies() {
+    const deps = {};
+
+    for (const name of TEST_MODULES) {
+        deps[name] = packajeInfo.devDependencies[name];
+    }
+
+    return deps;
+}
+
 async function run(tarFilePath) {
     const nodeModulesPath = [ 'node_modules', packajeInfo.name, 'lib' ];
 
@@ -41,10 +50,7 @@ async function run(tarFilePath) {
             [packajeInfo.name] : tarFilePath,
             ...packajeInfo.peerDependencies
         },
-        'devDependencies' : TEST_MODULES.reduce((prev, cur) => ({
-            [cur] : packajeInfo.devDependencies[cur],
-            ...prev
-        }), {})
+        'devDependencies' : devDependencies()
     };
 
     try {

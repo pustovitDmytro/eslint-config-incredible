@@ -1,0 +1,24 @@
+{
+    "plugins":[ "regexp" ],
+    "extends": [ "plugin:regexp/recommended" ],
+    "rules":{
+        "regexp/optimal-lookaround-quantifier": 1,
+        "regexp/prefer-escape-replacement-dollar-char": 1,
+        "regexp/prefer-regexp-exec": 1,
+        "regexp/confusing-quantifier": 1,
+        "regexp/no-dupe-disjunctions": 1,
+        "regexp/no-empty-alternative": 1,
+        "regexp/no-lazy-ends": 1,
+        "regexp/no-legacy-features": 1,
+        "regexp/no-non-standard-flag": 1,
+        "regexp/no-obscure-range": 1,
+        "regexp/no-optional-assertion": 1,
+        "regexp/no-potentially-useless-backreference": 1,
+        "regexp/no-useless-escape": 1,
+        "regexp/no-standalone-backslash": 1,
+        "regexp/no-unused-capturing-group": 1,
+        "regexp/no-useless-assertions": 1,
+        "regexp/no-useless-dollar-replacements": 1,
+        "regexp/no-zero-quantifier": 1
+    }
+ }

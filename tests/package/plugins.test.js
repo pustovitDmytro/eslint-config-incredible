@@ -2,9 +2,11 @@ import { assert } from 'chai';
 import entry from '../entry';
 import { load, resolve } from '../Test';
 
-const PLUGINS = [ 'censor', 'import', 'security' ];
+const PLUGINS = [ 'censor', 'import', 'security', 'markdown', 'mocha', 'no-secrets', 'node', 'promise', 'regexp', 'scanjs-rules', 'security', 'sonarjs', 'unicorn' ];
 
-PLUGINS.forEach(name => {
+const NO_RECOMMENDED = new Set([ 'mocha', 'no-secrets', 'scanjs-rules' ]);
+
+for (const name of PLUGINS) {
     suite(`Plugins: ${name}`);
 
     test('Present in default incredible configuration', function () {
@@ -22,9 +24,10 @@ PLUGINS.forEach(name => {
     });
 
     test('Extends recommended configuration', function () {
+        if (NO_RECOMMENDED.has(name)) this.skip();
         const plugin = load(`plugins/${name}.json`);
 
         assert.exists(plugin);
         assert.includeMembers(plugin.extends, [ `plugin:${name}/recommended` ]);
     });
-});
+}

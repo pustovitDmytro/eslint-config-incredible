@@ -24,6 +24,7 @@ Pretty [eslint](https://eslint.org) config.
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Migration Guide](#migration-guide)
   - [Contribute](#contribute)
 
 ## Requirements
@@ -39,13 +40,13 @@ To use library you need to have [node](https://nodejs.org) and [npm](https://www
 To install the library, run the following command:
 
 ```bash
-  npm i --save-dev eslint-config-incredible
+  npm install --save-dev eslint-config-incredible
 ```
 
 If you received a warning about missing peerDependencies, install peer modules:
 
 ```bash
-  npm i --save-dev eslint eslint-plugin-censor eslint-plugin-import eslint-plugin-security
+  npm install --save-dev eslint eslint-plugin-censor eslint-plugin-import eslint-plugin-security eslint-plugin-json eslint-plugin-markdown eslint-plugin-mocha eslint-plugin-no-secrets eslint-plugin-node eslint-plugin-promise eslint-plugin-regexp eslint-plugin-scanjs-rules eslint-plugin-sonarjs eslint-plugin-unicorn eslint-plugin-yml
 ```
 
 ## Usage
@@ -57,6 +58,9 @@ If you received a warning about missing peerDependencies, install peer modules:
     "extends": "incredible"
 }
 ```
+## Migration Guide
+
+Check [Migration Guide](./MIGRATION.md) to upgrade the next major version. Upgrade to minor/patch versions should happen without additional interventions. See detailed [Changelog](./CHANGELOG.md) for a list of changes.
 
 ## Contribute
 

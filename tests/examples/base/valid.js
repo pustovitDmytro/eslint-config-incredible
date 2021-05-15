@@ -5,3 +5,5 @@ data.assets = data.assets.map(
         ? { ...asset, rootDir: data.rootDir }
         : asset
 );
+
+export default data;
