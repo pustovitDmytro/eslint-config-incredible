@@ -9,7 +9,23 @@
             "allowConditionalRequire" : false
         } ],
         "import/imports-first"        : 2,
-        "import/order"                : [ 2, { "groups": [ "builtin", "external", "internal",  "parent", "sibling", "index" ] } ],
-        "import/newline-after-import" : 2
+        "import/order"                : [ 2, { 
+            "groups": [ "builtin", "external", "internal",  "parent", "sibling", "index" ] 
+        } ],
+        "import/newline-after-import" : 2,
+        "import/no-absolute-path": 2,
+        "import/no-self-import": 2,
+        "import/no-cycle": 2,
+        "import/no-useless-path-segments": 2,
+        "import/export": 2,
+        "import/no-named-as-default": 1,
+        "import/no-named-as-default-member": 1,
+        "import/no-extraneous-dependencies": 1,
+        "import/no-mutable-exports": 2,
+        "import/no-unused-modules": 1,
+        "import/unambiguous": 2,
+        "import/no-amd": 2,
+        "import/no-duplicates": 2,
+        "import/no-named-default": 2
     }
 }
