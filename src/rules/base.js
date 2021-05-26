@@ -174,7 +174,8 @@ export default {
         'code'                   : 120,
         'ignoreUrls'             : true,
         'ignoreTemplateLiterals' : true,
-        'ignoreStrings'          : true
+        'ignoreStrings'          : true,
+        'ignoreRegExpLiterals'   : true
     } ],
     'max-nested-callbacks'        : [ 'error', 4 ],
     'new-parens'                  : 'error',
