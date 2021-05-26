@@ -6,7 +6,9 @@
             "extends": ["plugin:mocha/recommended"],
             "rules": {
                 "mocha/no-global-tests": 0,
-                "mocha/no-top-level-hooks": 0
+                "mocha/no-top-level-hooks": 0,
+                "mocha/no-exports": 0,
+                "mocha/no-hooks-for-single-case": 0
             }
         }
     ]
