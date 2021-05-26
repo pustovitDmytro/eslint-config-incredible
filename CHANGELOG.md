@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.1...v2.0.2) (2021-05-26)
+
+
+### Fix
+
+* removes duplicating rule node/no-extraneous-import ([523f927](https://github.com/pustovitDmytro/eslint-config-incredible/commit/523f92714aff97bf0f95309e434e0c9cf01ab792))
+
 ## [2.0.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.0...v2.0.1) (2021-05-26)
 
 
