@@ -1,7 +1,7 @@
 import testEnv from '../env/tests';
 
 export default {
-    'files'   : [ '*.test.js', 'tests/**' ],
+    'files'   : [ '*.test.js', '**/tests/**' ],
     'env'     : testEnv,
     'extends' : [ 'plugin:mocha/recommended' ],
     'rules'   : {
@@ -14,8 +14,10 @@ export default {
         'import/named'   : 0,
         'import/default' : 0,
 
-        'mocha/no-global-tests'    : 0,
-        'mocha/no-top-level-hooks' : 0,
+        'mocha/no-global-tests'          : 0,
+        'mocha/no-top-level-hooks'       : 0,
+        'mocha/no-exports'               : 0,
+        'mocha/no-hooks-for-single-case' : 0,
 
         'unicorn/filename-case' : [ 'error', {
             'cases' : {

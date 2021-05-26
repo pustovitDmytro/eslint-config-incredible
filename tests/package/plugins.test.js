@@ -2,7 +2,7 @@ import { assert } from 'chai';
 import * as entry from '../entry';
 import { load, resolve } from '../Test';
 
-const PLUGINS = [ 'censor', 'import', 'security', 'markdown', 'mocha', 'no-secrets', 'node', 'promise', 'regexp', 'scanjs-rules', 'security', 'sonarjs', 'unicorn' ];
+const PLUGINS = [ 'censor', 'import', 'security', 'markdown', 'no-secrets', 'node', 'promise', 'regexp', 'scanjs-rules', 'security', 'sonarjs', 'unicorn' ];
 
 const NO_RECOMMENDED = new Set([ 'mocha', 'no-secrets', 'scanjs-rules' ]);
 

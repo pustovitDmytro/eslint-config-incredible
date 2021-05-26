@@ -7,7 +7,6 @@ const pluginConfigs =  [
     './plugins/censor',
     './plugins/import',
     './plugins/markdown',
-    './plugins/mocha',
     './plugins/no-secrets',
     './plugins/node',
     './plugins/promise',
