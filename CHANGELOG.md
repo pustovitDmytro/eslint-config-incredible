@@ -1,3 +1,14 @@
+# [2.1.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.3...v2.1.0) (2021-05-26)
+
+
+### Fix
+
+* allow bin and tests be placed in subfolders ([0ae03d8](https://github.com/pustovitDmytro/eslint-config-incredible/commit/0ae03d84c54bd0fa72b0a36abb05499f82dcf717))
+
+### New
+
+* removes duplicates unicorn/no-process-exit rule ([1ea74b1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/1ea74b1ee16c7da212b55e13601bc41340ebc91f))
+
 ## [2.0.3](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.2...v2.0.3) (2021-05-26)
 
 
