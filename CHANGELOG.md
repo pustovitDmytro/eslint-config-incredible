@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.2...v2.0.3) (2021-05-26)
+
+
+### Fix
+
+* disable mocha/no-exports and mocha/no-hooks-for-single-case rules ([66be9b0](https://github.com/pustovitDmytro/eslint-config-incredible/commit/66be9b09f5210047bbd2ef2fabcbad187911b4da))
+
 ## [2.0.2](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.1...v2.0.2) (2021-05-26)
 
 
