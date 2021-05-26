@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.0...v2.0.1) (2021-05-26)
+
+
+### Fix
+
+* ignore ignoreRegExpLiterals in max-len rule ([ae1afbb](https://github.com/pustovitDmytro/eslint-config-incredible/commit/ae1afbbdd4fed1022910d68f65dd4180a13acf74))
+
 # [2.0.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.9.1...v2.0.0) (2021-05-26)
 
 
