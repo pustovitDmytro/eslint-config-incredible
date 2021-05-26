@@ -1,7 +1,7 @@
 import path from 'path';
 import { assert } from 'chai';
 import { ESLint } from 'eslint';
-import entry from '../entry';
+import * as entry from '../entry';
 import { testsRootFolder } from '../Test';
 
 const examplesDir = path.join(testsRootFolder, 'examples');

@@ -1,3 +1,4 @@
+#!./node_modules/.bin/babel-node
 
 import path from 'path';
 import { rollup } from 'rollup';

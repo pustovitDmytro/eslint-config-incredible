@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import entry from '../entry';
+import * as entry from '../entry';
 import { load, resolve } from '../Test';
 
 const PLUGINS = [ 'censor', 'import', 'security', 'markdown', 'mocha', 'no-secrets', 'node', 'promise', 'regexp', 'scanjs-rules', 'security', 'sonarjs', 'unicorn' ];
@@ -10,7 +10,7 @@ for (const name of PLUGINS) {
     suite(`Plugins: ${name}`);
 
     test('Present in default incredible configuration', function () {
-        const extendedPath = entry.extends.find(p => p.includes(name));
+        const extendedPath = entry.extends.find(p => p.includes(`${name}.json`));
 
         assert.exists(extendedPath);
         assert.equal(extendedPath, resolve(`plugins/${name}.json`));

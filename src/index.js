@@ -19,15 +19,16 @@ const pluginConfigs =  [
 ].map(p => require.resolve(p));
 
 
-module.exports = {
-    parser        : babel.parser,
-    parserOptions : {
-        ...babel.parserOptions
-    },
-    env     : node,
-    extends : pluginConfigs,
-    rules   : {
-        ...baseRules
-    },
+const parser = babel.parser;
+const parserOptions = babel.parserOptions;
+const env = node;
+const rules  = baseRules;
+
+export {
+    parser,
+    parserOptions,
+    env,
+    pluginConfigs as extends,
+    rules,
     overrides
 };

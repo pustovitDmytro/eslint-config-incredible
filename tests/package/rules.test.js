@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import entry from '../entry';
+import { rules } from '../entry';
 import { load } from '../Test';
 
 const SETS = [ 'base' ];
@@ -16,6 +16,6 @@ for (const name of SETS) {
     });
 
     test('Present in default incredible configuration', function () {
-        assert.deepOwnInclude(entry.rules, set);
+        assert.deepOwnInclude(rules, set);
     });
 }
