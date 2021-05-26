@@ -1,3 +1,40 @@
+# [2.0.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.9.1...v2.0.0) (2021-05-26)
+
+
+### Breaking
+
+* adds new js plugins, fixes #10 ([047c396](https://github.com/pustovitDmytro/eslint-config-incredible/commit/047c3960fc85fa851cbd750b7461564b81c6f04e)), closes [#10](https://github.com/pustovitDmytro/eslint-config-incredible/issues/10)
+
+### Chore
+
+* 'Chore' semanticCommitType for updating devDependencies ([4bf79e1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/4bf79e1ac2907ca07a355f63458b8bf3b41a3afc))
+* (tests) clearCache on module load is optional ([96c2ae5](https://github.com/pustovitDmytro/eslint-config-incredible/commit/96c2ae5237b7eed47278471cbf3b04b2b99385d4))
+* additional quotes in glob pattern ([f6d15cf](https://github.com/pustovitDmytro/eslint-config-incredible/commit/f6d15cf2b6fc966f1b3a8b175b6bcf0144a80def))
+* adds appveyor ([d560b4e](https://github.com/pustovitDmytro/eslint-config-incredible/commit/d560b4ee54ffb8d4d267fd2cb132ba8bb6dfe5b9))
+* contributor login in danger message ([76349e6](https://github.com/pustovitDmytro/eslint-config-incredible/commit/76349e6ee87b0e59f8fff9402eb10fa66d23a188))
+* dont store package-tests artifacts ([50ebff1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/50ebff16449ff34f474587136dca4e4740ed4bf7))
+* export default in tests ([9d210e6](https://github.com/pustovitDmytro/eslint-config-incredible/commit/9d210e6f511a42a9c42f415ba6a64834346c11b0))
+* fixes prevent require handler ([7923f0e](https://github.com/pustovitDmytro/eslint-config-incredible/commit/7923f0ed71ba537d7c50064a99e2e9af318fcb60))
+* integrate APPVEYOR_BUILD_ID to build tests ([16cdd48](https://github.com/pustovitDmytro/eslint-config-incredible/commit/16cdd48ddb7da5000c6df88ceb1f2513225a4a5b))
+* integrated appveyor tests ([2f3a197](https://github.com/pustovitDmytro/eslint-config-incredible/commit/2f3a1976b570178c07b71705010351130bb6edf0))
+* not fail package if no tmp exists ([5693813](https://github.com/pustovitDmytro/eslint-config-incredible/commit/569381326c9b688c492aa29c825a61901419d1de))
+* package-tester improvements ([d5d868b](https://github.com/pustovitDmytro/eslint-config-incredible/commit/d5d868bc7f529d94f79041be5b923b5967d7a704))
+* prevent package:test from using devdependencies ([dc896f3](https://github.com/pustovitDmytro/eslint-config-incredible/commit/dc896f39fd79e6cb73c8cc458213c00f5f5a703d))
+* update default renovate rules ([7e83bc4](https://github.com/pustovitDmytro/eslint-config-incredible/commit/7e83bc4fb9b99bb74811cd55db0b94c81e18dcde))
+
+### Docs
+
+* adds node releases roadmap ([ba16142](https://github.com/pustovitDmytro/eslint-config-incredible/commit/ba16142230db2895ecd9855d5746648075f0b8e8))
+* move Contributing Guidelines to separate file. ([081e4ed](https://github.com/pustovitDmytro/eslint-config-incredible/commit/081e4ed03eebef0eda5305a1486a32cf91cdc62b))
+
+### New
+
+* adds additional  plugin:import rules ([bb49628](https://github.com/pustovitDmytro/eslint-config-incredible/commit/bb49628e4a7dca603c912adc9a9f3b6e7eb778ce))
+
+### Upgrade
+
+* Resolve vulnerability ([7ea8307](https://github.com/pustovitDmytro/eslint-config-incredible/commit/7ea830775192e5a70976309e1e6e293264aae0ae))
+
 ## [1.9.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v1.9.0...v1.9.1) (2021-05-09)
 
 
