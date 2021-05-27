@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.2...v2.1.3) (2021-05-27)
+
+
+### Fix
+
+* disable unicorn/no-array-for-each ([3c7dd01](https://github.com/pustovitDmytro/eslint-config-incredible/commit/3c7dd01531b70d9bb11928d768bda4563ad44f08))
+
 ## [2.1.2](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.1...v2.1.2) (2021-05-27)
 
 
