@@ -1,3 +1,14 @@
+## [2.1.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.0...v2.1.1) (2021-05-27)
+
+
+### Chore
+
+* Update dependency eslint-plugin-mocha to v9 ([e0c8868](https://github.com/pustovitDmytro/eslint-config-incredible/commit/e0c88684048455504b42f98acfb0ed7d8e230fe1))
+
+### Fix
+
+* removes node/no-missing-import as duplicate ([2ec3dc2](https://github.com/pustovitDmytro/eslint-config-incredible/commit/2ec3dc24aafc8a21cca46058e06db5937d781a4b))
+
 # [2.1.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.0.3...v2.1.0) (2021-05-26)
 
 
