@@ -1,7 +1,6 @@
 const plugins = [ 'unicorn' ];
 const recommended = [ 'plugin:unicorn/recommended' ];
 const rules = {
-    'unicorn/custom-error-definition'  : 2,
     'unicorn/no-unused-properties'     : 2,
     'unicorn/no-unsafe-regex'          : 2,
     'unicorn/prevent-abbreviations'    : 0,
@@ -11,6 +10,8 @@ const rules = {
     'unicorn/prefer-module'            : 0,
     'unicorn/no-process-exit'          : 0, // duplicates base no-process-exit
     'unicorn/no-array-for-each'        : 0, // not usefull in chaining, bug with retur-continue
+    'unicorn/custom-error-definition'  : 0,
+
 
     'unicorn/filename-case' : [
         'error',
