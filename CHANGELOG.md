@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.3...v2.1.4) (2021-05-27)
+
+
+### Fix
+
+* disable unicorn/custom-error-definition ([fe2ae24](https://github.com/pustovitDmytro/eslint-config-incredible/commit/fe2ae24da418a091c207319d3e9604ceff866256))
+
 ## [2.1.3](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.2...v2.1.3) (2021-05-27)
 
 
