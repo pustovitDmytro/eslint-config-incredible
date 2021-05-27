@@ -10,6 +10,7 @@ const rules = {
     'unicorn/consistent-destructuring' : 0,
     'unicorn/prefer-module'            : 0,
     'unicorn/no-process-exit'          : 0, // duplicates base no-process-exit
+    'unicorn/no-array-for-each'        : 0, // not usefull in chaining, bug with retur-continue
 
     'unicorn/filename-case' : [
         'error',
