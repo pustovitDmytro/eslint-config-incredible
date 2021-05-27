@@ -5,8 +5,8 @@ const rules = {
         'ignores' : [ 'modules' ]
     } ],
     'node/no-extraneous-import' : 0, // duplicates import/no-extraneous-dependencies,
-    'node/no-process-exit'      : 0 // duplicates base no-process-exit
-
+    'node/no-process-exit'      : 0, // duplicates base no-process-exit
+    'node/no-missing-import'    : 0  // duplicates import/no-unresolved
 };
 
 export {
