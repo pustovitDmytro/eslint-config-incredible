@@ -26,6 +26,7 @@ export default {
             }
         } ],
 
-        'sonarjs/no-duplicate-string' : 0
+        'sonarjs/no-duplicate-string'    : 0,
+        'sonarjs/no-identical-functions' : 0
     }
 };
