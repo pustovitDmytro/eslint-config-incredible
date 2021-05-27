@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.1...v2.1.2) (2021-05-27)
+
+
+### Fix
+
+* disable sonarjs/no-identical-functions for tests ([3485543](https://github.com/pustovitDmytro/eslint-config-incredible/commit/3485543d3ea3d0f97c52bef066451c5999045aec))
+
 ## [2.1.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.0...v2.1.1) (2021-05-27)
 
 
