@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-incredible",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Pretty eslint config",
   "keywords": [
     "eslint",
