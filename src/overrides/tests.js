@@ -28,6 +28,9 @@ export default {
         } ],
 
         'sonarjs/no-duplicate-string'    : 0,
-        'sonarjs/no-identical-functions' : 0
+        'sonarjs/no-identical-functions' : 0,
+
+        'security/detect-unsafe-regex' : 0,
+        'unicorn/no-unsafe-regex'      : 0
     }
 };
