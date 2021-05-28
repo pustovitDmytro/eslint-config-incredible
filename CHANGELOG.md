@@ -1,3 +1,10 @@
+## [2.1.5](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.4...v2.1.5) (2021-05-28)
+
+
+### Fix
+
+* disable unicorn/prefer-array-flat for node-10 compartibility ([7cc4a90](https://github.com/pustovitDmytro/eslint-config-incredible/commit/7cc4a90d61663b13bec34da6847ff2821654dc61))
+
 ## [2.1.4](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.3...v2.1.4) (2021-05-27)
 
 
