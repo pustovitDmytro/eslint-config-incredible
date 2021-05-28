@@ -1,3 +1,10 @@
+## [2.1.8](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.7...v2.1.8) (2021-05-28)
+
+
+### Fix
+
+* ignore API and AWS file name casing ([47dfa3d](https://github.com/pustovitDmytro/eslint-config-incredible/commit/47dfa3d5b3d9625ca360d5ed2617a549c7e97658))
+
 ## [2.1.7](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.6...v2.1.7) (2021-05-28)
 
 
