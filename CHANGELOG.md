@@ -1,3 +1,10 @@
+## [2.1.6](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.5...v2.1.6) (2021-05-28)
+
+
+### Fix
+
+* allow camelCase file name for tests ([3da7c99](https://github.com/pustovitDmytro/eslint-config-incredible/commit/3da7c9955dc0fb851ebfe180ae0993cfbcbe99f3))
+
 ## [2.1.5](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.4...v2.1.5) (2021-05-28)
 
 
