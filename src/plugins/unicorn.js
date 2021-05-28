@@ -20,7 +20,11 @@ const rules = {
             'cases' : {
                 'camelCase'  : true,
                 'pascalCase' : true
-            }
+            },
+            'ignore' : [
+                'API',
+                'AWS'
+            ]
         }
     ]
 };
