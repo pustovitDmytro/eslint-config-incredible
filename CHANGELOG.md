@@ -1,3 +1,10 @@
+## [2.1.7](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.6...v2.1.7) (2021-05-28)
+
+
+### Fix
+
+* allow unsafe-regex for tests ([52caff1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/52caff1aa293d9d4390a87c0687a05cab4f4f4b4))
+
 ## [2.1.6](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.5...v2.1.6) (2021-05-28)
 
 
