@@ -22,7 +22,8 @@ export default {
         'unicorn/filename-case' : [ 'error', {
             'cases' : {
                 'kebabCase'  : true,
-                'pascalCase' : true
+                'pascalCase' : true,
+                'camelCase'  : true // for testing camelCase utils
             }
         } ],
 
