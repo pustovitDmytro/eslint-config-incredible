@@ -1,3 +1,26 @@
+# [2.2.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.8...v2.2.0) (2021-06-04)
+
+
+### Chore
+
+* Lock file maintenance ([6ca93be](https://github.com/pustovitDmytro/eslint-config-incredible/commit/6ca93be91302a1a2e1354349ba1782fb54ec17d6))
+* Lock file maintenance ([3291a21](https://github.com/pustovitDmytro/eslint-config-incredible/commit/3291a2144ee143dc327f6fb4a8b82e62e07b1c1f))
+* set YARGS_MIN_NODE_VERSION 10 ([9b6bef9](https://github.com/pustovitDmytro/eslint-config-incredible/commit/9b6bef9d89f8f0c958ee1fe60f20475dd20c8276))
+* Update dependency eslint-plugin-regexp to ^0.11.0 ([1dc747b](https://github.com/pustovitDmytro/eslint-config-incredible/commit/1dc747baa6bacab21bda6af120da4aa9625a0bb8))
+* Update dependency eslint-plugin-unicorn to v33 ([06cfa0e](https://github.com/pustovitDmytro/eslint-config-incredible/commit/06cfa0efe201bcaff92515dc5181ad198b3ef1f5))
+* Update dependency eslint-plugin-unicorn to v33 ([bfa00ff](https://github.com/pustovitDmytro/eslint-config-incredible/commit/bfa00ff354dfb9ffe717e9a36f7a938d44b32611))
+* update eslint ([6b174b1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/6b174b184a792fc282ef3228079f23fa81f2bcb5))
+* update eslint-config-incredible ([2f39edb](https://github.com/pustovitDmytro/eslint-config-incredible/commit/2f39edb6b44795918e8650be3e727b8e7abb61b7))
+* update eslint-config-incredible ([58c31d2](https://github.com/pustovitDmytro/eslint-config-incredible/commit/58c31d295fa2df7cb3dceda8db6a417144a4b1c3))
+
+### Fix
+
+* set babel target node version to 10 ([f736568](https://github.com/pustovitDmytro/eslint-config-incredible/commit/f73656838a20d11da6680579cfccc24a9f4a1201))
+
+### New
+
+* disable unicorn/prefer-prototype-methods ([487d655](https://github.com/pustovitDmytro/eslint-config-incredible/commit/487d655d877d307dfbe0577245d5187b7d0678a7))
+
 ## [2.1.8](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.7...v2.1.8) (2021-05-28)
 
 
