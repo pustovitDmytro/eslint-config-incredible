@@ -11,8 +11,8 @@ const rules = {
     'unicorn/no-process-exit'          : 0, // duplicates base no-process-exit
     'unicorn/no-array-for-each'        : 0, // not usefull in chaining, bug with retur-continue
     'unicorn/custom-error-definition'  : 0,
-    'unicorn/prefer-array-flat'        : 0, // not working for node 10
-
+    'unicorn/prefer-array-flat'        : 0, // not working for node 10,
+    'unicorn/prefer-prototype-methods' : 0,
 
     'unicorn/filename-case' : [
         'error',
