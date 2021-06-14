@@ -18,6 +18,7 @@ Pretty [eslint](https://eslint.org) config.
 [![Coverage Status][badge-coverage]][url-coverage]
 
 [![Commit activity][commit-activity-badge]][github]
+[![FOSSA][fossa-badge]][fossa-url]
 [![License][badge-lic]][github]
 
 ## Table of Contents
@@ -107,3 +108,6 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 
 [appveyor-badge]: https://ci.appveyor.com/api/projects/status/lqiyjlwktdapem5q/branch/master?svg=true
 [appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/eslint-config-incredible/branch/master
+
+[fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Feslint-config-incredible.svg?type=shield
+[fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Feslint-config-incredible?ref=badge_shield
