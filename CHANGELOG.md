@@ -1,3 +1,23 @@
+# [2.3.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.2.0...v2.3.0) (2021-06-15)
+
+
+### Chore
+
+* adds stabilityDays to renovate ([3b262bc](https://github.com/pustovitDmytro/eslint-config-incredible/commit/3b262bcefc6db318d2a7d9103f9f5f42315202d5))
+* fix json in renovate ([8ad7928](https://github.com/pustovitDmytro/eslint-config-incredible/commit/8ad792825b2703e3159b65faf722eb43a1d9d421))
+* fixes npm  audit ([c3beccd](https://github.com/pustovitDmytro/eslint-config-incredible/commit/c3beccdf1926d72dcf9b13cd153e37916f1a8d13))
+* fixes npm audit ([8791066](https://github.com/pustovitDmytro/eslint-config-incredible/commit/87910662288cd929688b9b337673be8a6ad49e10))
+* integrate fossa ([b65e961](https://github.com/pustovitDmytro/eslint-config-incredible/commit/b65e961a5ae500b1b5fd12fce3436e71c1518e35))
+* integrate node-package-tester ([9d53bf3](https://github.com/pustovitDmytro/eslint-config-incredible/commit/9d53bf30d295368e7f1e925c18b00e48cc16014e))
+* removes unused devDependencies ([ddb100a](https://github.com/pustovitDmytro/eslint-config-incredible/commit/ddb100aa634ab2e1d2695de73d9aeb4a7795ccce))
+* Update dependency eslint-plugin-regexp to ^0.12.0 (#19) ([4431731](https://github.com/pustovitDmytro/eslint-config-incredible/commit/4431731e0dddc345a6a6c573627b71d3da698759)), closes [#19](https://github.com/pustovitDmytro/eslint-config-incredible/issues/19)
+* Update dependency glob-parent to 5.1.2 [SECURITY] ([c957512](https://github.com/pustovitDmytro/eslint-config-incredible/commit/c957512cf496d9b99e2278b44b6bb9da545f57a8))
+* Update dependency mocha to v9 ([93b7a17](https://github.com/pustovitDmytro/eslint-config-incredible/commit/93b7a1783ea97a7bcd94d570ef33b61314c93746))
+
+### New
+
+* move plugins extends to separate file ([04d89ef](https://github.com/pustovitDmytro/eslint-config-incredible/commit/04d89ef910cbc1fbea0783590a49dd272194ae73))
+
 # [2.2.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.1.8...v2.2.0) (2021-06-04)
 
 
