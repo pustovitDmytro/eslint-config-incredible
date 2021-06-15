@@ -1,3 +1,10 @@
+## [2.3.2](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.1...v2.3.2) (2021-06-15)
+
+
+### Fix
+
+* skip node/no-unpublished for tests ([e4cb855](https://github.com/pustovitDmytro/eslint-config-incredible/commit/e4cb855c2de8df5997734f1215c1be1c6b6287aa))
+
 ## [2.3.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.0...v2.3.1) (2021-06-15)
 
 
