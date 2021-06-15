@@ -49,7 +49,7 @@ To install the library, run the following command:
 If you received a warning about missing peerDependencies, install peer modules:
 
 ```bash
-  npm install --save-dev eslint eslint-plugin-censor eslint-plugin-import eslint-plugin-security eslint-plugin-json eslint-plugin-markdown eslint-plugin-mocha eslint-plugin-no-secrets eslint-plugin-node eslint-plugin-promise eslint-plugin-regexp eslint-plugin-scanjs-rules eslint-plugin-sonarjs eslint-plugin-unicorn eslint-plugin-yml
+  npm install --save-dev eslint eslint-plugin-censor eslint-plugin-import eslint-plugin-security eslint-plugin-markdown eslint-plugin-mocha eslint-plugin-no-secrets eslint-plugin-node eslint-plugin-promise eslint-plugin-regexp eslint-plugin-scanjs-rules eslint-plugin-sonarjs eslint-plugin-unicorn
 ```
 
 ## Usage
