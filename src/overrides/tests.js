@@ -31,6 +31,9 @@ export default {
         'sonarjs/no-identical-functions' : 0,
 
         'security/detect-unsafe-regex' : 0,
-        'unicorn/no-unsafe-regex'      : 0
+        'unicorn/no-unsafe-regex'      : 0,
+
+        'node/no-unpublished-import'  : 0,
+        'node/no-unpublished-require' : 0
     }
 };
