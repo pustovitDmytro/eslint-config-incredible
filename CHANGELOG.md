@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.0...v2.3.1) (2021-06-15)
+
+
+### Docs
+
+* removes redundant  plugins from readme ([c4ae475](https://github.com/pustovitDmytro/eslint-config-incredible/commit/c4ae4756389f000af64e0375ae4322495866d88a))
+
 # [2.3.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.2.0...v2.3.0) (2021-06-15)
 
 
