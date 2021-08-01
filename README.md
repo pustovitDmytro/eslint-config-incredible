@@ -13,7 +13,7 @@ Pretty [eslint](https://eslint.org) config.
 [![Scrutinizer][scrutinizer-badge]][scrutinizer-url]
 
 [![Dependencies][badge-deps]][npm]
-[![Vulnerabilities][badge-vuln]](https://snyk.io/)
+[![Security][snyk-badge]][snyk-url]
 [![Build Status][tests-badge]][tests-url]
 [![Coverage Status][badge-coverage]][url-coverage]
 
@@ -78,6 +78,9 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/eslint-config-incredible.svg
 [badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/eslint-config-incredible/badge.svg?branch=master
 [url-coverage]: https://coveralls.io/github/pustovitDmytro/eslint-config-incredible?branch=master
+
+[snyk-badge]: https://snyk-widget.herokuapp.com/badge/npm/eslint-config-incredible/badge.svg
+[snyk-url]: https://snyk.io/advisor/npm-package/eslint-config-incredible
 
 [tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/eslint-config-incredible
 [tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/eslint-config-incredible
