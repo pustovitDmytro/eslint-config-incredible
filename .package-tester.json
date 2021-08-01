@@ -1,5 +1,6 @@
 {
     "dir": "tmp/package-tests",
+    "modules": ["eslint"],
     "copy": [ [ "tests/examples",  "examples" ] ],
     "copyDefaultFiles": true
 }
