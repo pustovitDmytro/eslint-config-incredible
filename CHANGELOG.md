@@ -1,3 +1,28 @@
+## [2.3.4](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.3...v2.3.4) (2021-09-05)
+
+
+### Chore
+
+* fixes audit [devDependencies] ([d08b1fc](https://github.com/pustovitDmytro/eslint-config-incredible/commit/d08b1fc075b7eef59c59f755e1ee96748824e415))
+* Lock file maintenance ([47bfacf](https://github.com/pustovitDmytro/eslint-config-incredible/commit/47bfacf4e2ffe672c96345481ddfa6811d4d4d69))
+* Lock file maintenance ([19c2389](https://github.com/pustovitDmytro/eslint-config-incredible/commit/19c23891056afb813e4dde92e7f40f0905896bc9))
+* Lock file maintenance ([2b00aec](https://github.com/pustovitDmytro/eslint-config-incredible/commit/2b00aec84097bd21c51a43ab785225798753dbae))
+* Lock file maintenance ([dea06c9](https://github.com/pustovitDmytro/eslint-config-incredible/commit/dea06c9d3e2dd4448e997ee081425b1a765fae87))
+* Lock file maintenance ([e0043d8](https://github.com/pustovitDmytro/eslint-config-incredible/commit/e0043d89de5576939e701f567ab1a871c2c8a057))
+* Lock file maintenance ([a7a29ea](https://github.com/pustovitDmytro/eslint-config-incredible/commit/a7a29ea38ab9b2e064da1bde445247c030190a8b))
+* Lock file maintenance (#27) ([b44dbfa](https://github.com/pustovitDmytro/eslint-config-incredible/commit/b44dbfa60fff7a81a7917452b6254c7458f9c3ad)), closes [#27](https://github.com/pustovitDmytro/eslint-config-incredible/issues/27)
+* Update devDependencies (non-major) ([51200bf](https://github.com/pustovitDmytro/eslint-config-incredible/commit/51200bf4f3ac07c957f6861fd819319a28710689))
+* Update devDependencies (non-major) ([88d2568](https://github.com/pustovitDmytro/eslint-config-incredible/commit/88d2568d2fe91efedd71fea1784efa21c3f417d3))
+* Update devDependencies (non-major) ([33211c3](https://github.com/pustovitDmytro/eslint-config-incredible/commit/33211c31d168fc187eb028f92eaeeff48ccfd085))
+* Update devDependencies (non-major) (#29) ([86fb7d9](https://github.com/pustovitDmytro/eslint-config-incredible/commit/86fb7d9dcc484aa985a1cf60344e8c5fc2ddc44d)), closes [#29](https://github.com/pustovitDmytro/eslint-config-incredible/issues/29)
+* Update devDependencies (non-major) (#48) ([b3f6184](https://github.com/pustovitDmytro/eslint-config-incredible/commit/b3f6184966d64e7a20a5176ddca6c63d1e275520)), closes [#48](https://github.com/pustovitDmytro/eslint-config-incredible/issues/48)
+
+### Fix
+
+* disable regexp/no-super-linear-backtracking for tests ([9a57171](https://github.com/pustovitDmytro/eslint-config-incredible/commit/9a571719ed157f0cde139d4d8d2ec8d770eac0de))
+* disable regexp/strict ([192eb78](https://github.com/pustovitDmytro/eslint-config-incredible/commit/192eb78a06b3188bf1383e9ee5215467c26c2130))
+* disable unicorn/prefer-object-from-entries due to node-10 support ([b5168d8](https://github.com/pustovitDmytro/eslint-config-incredible/commit/b5168d82cfb4e6f6585890c63402adbe9bd0009c))
+
 ## [2.3.3](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.2...v2.3.3) (2021-08-02)
 
 
