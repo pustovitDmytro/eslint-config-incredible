@@ -34,6 +34,8 @@ export default {
         'unicorn/no-unsafe-regex'      : 0,
 
         'node/no-unpublished-import'  : 0,
-        'node/no-unpublished-require' : 0
+        'node/no-unpublished-require' : 0,
+
+        'regexp/no-super-linear-backtracking': 0
     }
 };
