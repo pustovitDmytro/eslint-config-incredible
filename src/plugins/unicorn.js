@@ -15,6 +15,7 @@ const rules = {
     'unicorn/prefer-array-flat'          : 0, // not working for node 10,
     'unicorn/prefer-prototype-methods'   : 0,
     'unicorn/prefer-object-from-entries' : 0, // not working for node 10,
+    'unicorn/prefer-export-from'         : 0,
 
     'unicorn/filename-case' : [
         'error',
