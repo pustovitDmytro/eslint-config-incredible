@@ -1,3 +1,15 @@
+## [2.4.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.4.0...v2.4.1) (2022-01-27)
+
+
+### Chore
+
+* Update devDependencies (non-major) (#39) ([161dbd1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/161dbd1b5d7db10d20c92d6d865883d8185efb65)), closes [#39](https://github.com/pustovitDmytro/eslint-config-incredible/issues/39)
+* Update devDependencies (non-major) (#40) ([9bd6cc1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/9bd6cc1a791d15112b014d9da9c37766911d9b10)), closes [#40](https://github.com/pustovitDmytro/eslint-config-incredible/issues/40)
+
+### Fix
+
+* disable requireConfigFile @babel/eslint-parser option ([a31eba2](https://github.com/pustovitDmytro/eslint-config-incredible/commit/a31eba271337708b88794e1cb13991076915ab5f))
+
 # [2.4.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.5...v2.4.0) (2022-01-23)
 
 
