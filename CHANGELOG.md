@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.5...v2.4.0) (2022-01-23)
+
+
+### New
+
+* change babel parser to @babel/eslint-parser ([00f0bf6](https://github.com/pustovitDmytro/eslint-config-incredible/commit/00f0bf6a85cb3180a164c2d2cd6069029d531860))
+
 ## [2.3.5](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.3.4...v2.3.5) (2022-01-22)
 
 
