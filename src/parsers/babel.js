@@ -1,8 +1,10 @@
 export default {
     'parser'        : '@babel/eslint-parser',
     'parserOptions' : {
-        'sourceType'   : 'module',
-        'ecmaFeatures' : {
+        'sourceType'                  : 'module',
+        'allowImportExportEverywhere' : false,
+        'requireConfigFile'           : false,
+        'ecmaFeatures'                : {
             'arrowFunctions'                   : true,
             'blockBindings'                    : true,
             'classes'                          : true,
