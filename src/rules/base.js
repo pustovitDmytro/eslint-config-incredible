@@ -22,7 +22,7 @@ export default {
     'no-useless-backreference'       : 'error',
     'default-case-last'              : 'error',
     'no-magic-numbers'               : [ 'error', {
-        'ignore'              : [ -1, 0, 1, 1024, 60, 24 ],
+        'ignore'              : [ -1, 0, 1, 2, 60, 24 ],
         'ignoreArrayIndexes'  : true,
         'ignoreDefaultValues' : true,
         'enforceConst'        : true
