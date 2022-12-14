@@ -20,8 +20,12 @@ Pretty [eslint](https://eslint.org) config.
 [![Commit activity][commit-activity-badge]][github]
 [![FOSSA][fossa-badge]][fossa-url]
 [![License][badge-lic]][github]
+[![Made in Ukraine][ukr-badge]][ukr-link]
+
 
 ## Table of Contents
+- [eslint-config-incredible](#eslint-config-incredible)
+  - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -114,3 +118,6 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 
 [fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Feslint-config-incredible.svg?type=shield
 [fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Feslint-config-incredible?ref=badge_shield
+
+[ukr-badge]: https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7
+[ukr-link]: https://war.ukraine.ua
