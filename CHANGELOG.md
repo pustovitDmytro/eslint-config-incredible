@@ -1,3 +1,18 @@
+## [2.4.2](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.4.1...v2.4.2) (2022-02-06)
+
+
+### Chore
+
+* fixes some npm audit vulnerabilities (#46) ([c19f7cd](https://github.com/pustovitDmytro/eslint-config-incredible/commit/c19f7cd7519675b0d136eea0459074278e804893)), closes [#46](https://github.com/pustovitDmytro/eslint-config-incredible/issues/46)
+* fixes some npm audit vulnerabilities (#47) ([253092b](https://github.com/pustovitDmytro/eslint-config-incredible/commit/253092b677b0818b869c5359d4581aeec6f34957)), closes [#47](https://github.com/pustovitDmytro/eslint-config-incredible/issues/47)
+* Lock file maintenance (#36) ([3d5fa82](https://github.com/pustovitDmytro/eslint-config-incredible/commit/3d5fa8217a457593e6a77bb6ed3c0d25dfb666d4)), closes [#36](https://github.com/pustovitDmytro/eslint-config-incredible/issues/36)
+* Lock file maintenance (#49) ([6d57d05](https://github.com/pustovitDmytro/eslint-config-incredible/commit/6d57d0529dce73f8b174057c88c31d90323bded7)), closes [#49](https://github.com/pustovitDmytro/eslint-config-incredible/issues/49)
+* use eslint@^7.32.0 for nodejs 10 tests ([a764747](https://github.com/pustovitDmytro/eslint-config-incredible/commit/a7647473cf5081201a09e6872b72aa3e96547903))
+
+### Upgrade
+
+* Update dependency @babel/eslint-parser to v7.17.0 (#50) ([3581090](https://github.com/pustovitDmytro/eslint-config-incredible/commit/35810908b9ec31ed1dfcae59a0564d731ff14331)), closes [#50](https://github.com/pustovitDmytro/eslint-config-incredible/issues/50)
+
 ## [2.4.1](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.4.0...v2.4.1) (2022-01-27)
 
 
