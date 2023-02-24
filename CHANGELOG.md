@@ -1,3 +1,17 @@
+## [2.4.4](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.4.3...v2.4.4) (2023-02-24)
+
+
+### Chore
+
+* Update devDependencies (non-major) ([01bd6c0](https://github.com/pustovitDmytro/eslint-config-incredible/commit/01bd6c09f1ba5886abdb991b436317f741eeb20b))
+* Update devDependencies (non-major) ([85a0161](https://github.com/pustovitDmytro/eslint-config-incredible/commit/85a0161b7426b877ec45f6956238f93810e5b3c9))
+
+### Docs
+
+* adds logo ([f6a00b1](https://github.com/pustovitDmytro/eslint-config-incredible/commit/f6a00b1368be32cdd98148d81db4723d00402801))
+* drop lgtm ([b1841f2](https://github.com/pustovitDmytro/eslint-config-incredible/commit/b1841f24770563faafb609444868658fba298b81))
+* update year in license ([64521cb](https://github.com/pustovitDmytro/eslint-config-incredible/commit/64521cb04f41c46b7bdcbba18bec8d4673736a31))
+
 ## [2.4.3](https://github.com/pustovitDmytro/eslint-config-incredible/compare/v2.4.2...v2.4.3) (2023-01-12)
 
 
