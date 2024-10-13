@@ -85,7 +85,7 @@
     "uuid": "^9.0.0"
   },
   "dependencies": {
-    "@babel/eslint-parser": "7.17.0"
+    "@babel/eslint-parser": "7.25.8"
   },
   "peerDependencies": {
     "eslint": ">= 7",
